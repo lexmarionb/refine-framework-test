@@ -1,0 +1,54 @@
+{
+  "name": "tidewrk-test-supabase",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=4096 refine dev",
+    "build": "refine build",
+    "start": "refine start",
+    "lint": "next lint",
+    "format": "prettier --write src/**/*.{ts,tsx}",
+    "format:check": "prettier --check src/**/*.{ts,tsx}",
+    "refine": "refine"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^6.1.6",
+    "@mui/lab": "^6.0.0-beta.14",
+    "@mui/material": "^6.1.7",
+    "@mui/x-data-grid": "^7.22.2",
+    "@mui/x-date-pickers": "^7.29.4",
+    "@refinedev/cli": "^2.16.48",
+    "@refinedev/core": "^5.0.8",
+    "@refinedev/devtools": "^2.0.1",
+    "@refinedev/kbar": "^2.0.0",
+    "@refinedev/mui": "^7.0.0",
+    "@refinedev/nextjs-router": "^7.0.0",
+    "@refinedev/react-hook-form": "^5.0.0",
+    "@refinedev/supabase": "^6.0.0",
+    "@supabase/ssr": "^0.3.0",
+    "dayjs": "^1.11.21",
+    "js-cookie": "^3.0.5",
+    "next": "^15.2.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/node": "^20",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8",
+    "eslint-config-next": "^15.0.3",
+    "prettier": "^3.9.5",
+    "typescript": "^5.8.3"
+  },
+  "refine": {
+    "projectId": "u41kJ3-CtoUF1-aJa50m"
+  }
+}
